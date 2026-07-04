@@ -26,6 +26,13 @@ Released on June 03, 2026
   - SEP-45 (`stellar_sdk.sep.stellar_soroban_web_authentication`): challenge parsing and building accept `ADDRESS_V2` entries in addition to the legacy type; delegated entries are rejected.
 - chore: upgrade generated XDR definitions to Protocol 27. ([#1186](https://github.com/StellarCN/py-stellar-base/pull/1186))
 
+### Version 14.1.1
+
+Released on June 28, 2026
+
+#### Update
+- fix: `SorobanServer[Async].get_sac_balance` now returns the SAC balance held by the *requested contract* instead of the balance the SAC holds of itself. ([#1196](https://github.com/StellarCN/py-stellar-base/pull/1196))
+
 ### Version 14.1.0
 
 Released on June 03, 2026
